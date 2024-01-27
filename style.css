@@ -346,7 +346,7 @@ h1{
 .about__slider {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .about__slider_item {
     padding-left: 40px;
@@ -403,6 +403,9 @@ h1{
 .program__descr_item>p {
     padding: 15px;
 
+}
+.program__img {
+    margin-top: 20px;
 }
 .questions button {
     font-size: 32px;
@@ -465,10 +468,11 @@ details summary ol {
     text-align: center;
 }
 
-.swiper-container {
+.swiper_teachers {
+    width: 80%;
+    height: inherit;
     padding: 50px 0 100px 0;
 }
-
 .swiper-slide {
     background-color: white;
 }
@@ -613,6 +617,7 @@ details summary ol {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
+    margin-top: 10px;
 }
 .development__item_center {
     padding: 20px;
@@ -632,14 +637,20 @@ details summary ol {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    align-items: center;
 }
 .development__item_bottom-el {
     width: 390px;
     height: 178px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
 }
-.development__item_bottom img {
+.development__item_bottom-el img {
     display: block;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .reviews h2,

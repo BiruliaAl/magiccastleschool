@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Английская Школа в центре Москвы - MCS School!</title>
-    <link rel="preload" href="/wp-content/themes/wr-nitro/assets/woorockets/fonts/DINPro.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/wp-content/themes/wr-nitro/assets/woorockets/fonts/DINPro.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -162,7 +160,7 @@
                 <h3>СОВРЕМЕННАЯ ШКОЛА В ЦЕНТРЕ МОСКВЫ</h3>
                 <h4>ШКОЛА, КОТОРУЮ ПОЛЮБИТ ВАШ РЕБЕНОК</h4>
                 <div class="about__slider">
-                    <div class="swiper">
+                    <div class="swiper swiper_about ">
                         <div class="about__slider_items swiper-wrapper">
                             <img class="swiper-slide" src="./img/slider-1.webp" alt="photo">
                             <img class="swiper-slide" src="./img/slider-2.webp" alt="photo">
@@ -230,7 +228,7 @@
                         </p>
                     </div>
                 </div>
-                <img src="./img/photo-levels.webp" alt="levels">
+                <img class="program__img" src="./img/photo-levels.webp" alt="levels">
             </div>      
         </section>
         <section class="questions">
@@ -505,8 +503,8 @@
         <section class="teachers">
             <div class="container">
                 <h3>НАШИ УЧИТЕЛЯ</h3>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
+                <div class="swiper swiper_teachers">
+                    <div class="swiper-wrapper swiper-wrapper_teachers">
                         <div class="swiper-slide teachers__slide">
                             <div class="swiper-slide-item">
                                 <div class="img"><img src="./img_carusel/anna_oros.jpg" alt="swiper-slide"></div>
@@ -774,10 +772,8 @@
                             </div>
                         </div>
                     </div>
-        
-            
-                    <!-- <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div> -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -879,9 +875,9 @@
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/jge1gTWFfOc?si=nEuKAsVKytiqkESx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                <button>получить информационный буклет</button>
-            </section>
+                <button>получить информационный буклет</button>     
             </div>
+        </section>
         <section class="headline">
             <h2>наши новости</h2>
             <h2>вас могут заинтересовать наши программы </h2>
@@ -976,6 +972,7 @@
             </div>
         </div>      
     </footer>
+
     <script src="https://kit.fontawesome.com/2589773e64.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>

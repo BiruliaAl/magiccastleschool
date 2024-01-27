@@ -1,7 +1,7 @@
 //ресурс 
 //https://swiperjs.com
 
-const swiper = new Swiper('.swiper', {
+let swiper = new Swiper('.swiper_about', {
     // Optional parameters
     loop: true,
   
@@ -11,6 +11,19 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
     },
   
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+
+  let swiper2 = new Swiper('.swiper_teachers', {
+    // Optional parameters
+    loop: true,
+    centeredSlides: true,
+
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
