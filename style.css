@@ -452,10 +452,9 @@ details summary table {
     text-align: left;
 }
 
-details summary>ol {
+details summary ol {
     padding: 0;
     margin: 0;
-
 }
 .teachers {
     padding: 40px 0;
@@ -467,7 +466,7 @@ details summary>ol {
 }
 
 .swiper-container {
-    margin-top: 50px;
+    padding: 50px 0 100px 0;
 }
 
 .swiper-slide {
@@ -533,7 +532,7 @@ details summary>ol {
 
 .development_title {
     box-shadow: -3px 0px 7px 6px rgba(50, 50, 50, 0.35);
-    padding: 20px;
+    padding: 50px;
     margin-top: 20px;
     text-align: center;
 }
@@ -543,7 +542,7 @@ details summary>ol {
     color: #ed1c24;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 }
 .development_title p {
     width: 80%;
