@@ -426,7 +426,7 @@ details summary::-webkit-details-marker {
     display: none
 }
 details > summary {
-list-style: none;
+    list-style: none;
 }
 details summary:before {
     content: '\f111';
@@ -455,7 +455,7 @@ details summary table {
     text-align: left;
 }
 
-details summary ol {
+details ol {
     padding: 0;
     margin: 0;
 }
@@ -755,18 +755,18 @@ input[type="checkbox"] {
     position: relative;
 }
 .form__item i {
-    margin-left: 7px;
+    margin-left: 6px;
 }
 .form__icon {
-    font-size: 23px;
+    font-size: 22px;
     color: white;
     border-radius: 100%;
     background-color: #283891;
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 7px;
+    left: 7px;
     line-height: 1.5;
 }
 
@@ -825,6 +825,9 @@ footer {
 }
 .social a {
     margin-right: 10px;
+}
+.social a i {
+    font-size: 28px;
 }
 @media screen and (max-width: 900px) {
     .swiper-slide-item2 {
