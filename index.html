@@ -873,10 +873,18 @@
                     <div class="reviews__items_logo">
                         <img src="./logo/cropped-mcs_school_logo.png" alt="logo">
                     </div>
-                    <div class="reviews__items_slider">
-                        <iframe hidden width="560" height="315" src="https://www.youtube.com/embed/ZOrLRLX0xdY?si=2KnPaQbEPt7iCnqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jge1gTWFfOc?si=nEuKAsVKytiqkESx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
+                    <div class="swiper swiper_reviews">
+                        <div class="swiper-wrapper reviews__items_slider">
+                            <div class="swiper-slide ">
+                                <iframe src="https://www.youtube.com/embed/ZOrLRLX0xdY?si=2KnPaQbEPt7iCnqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe src="https://www.youtube.com/embed/jge1gTWFfOc?si=nEuKAsVKytiqkESx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>     
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>  
                 </div>
                 <button>получить информационный буклет</button>     
             </div>
@@ -902,10 +910,19 @@
                     <div class="conditions__form">
                         <h3>узнать условия поступления</h3>
                         <form action="#">
-                            <div><input type="text" placeholder="Имя"></div>
-                            <div><input type="text" placeholder="Телефон"></div>
-                            <div><input type="text" placeholder="E-mail"></div>
-                            <div><input type="checkbox" /> Я подтверждаю свое согласие на обработку персональных данных</div>
+                            <div class="form__item">
+                                <div class="form__icon"><i class="fa-regular fa-user"></i></div>
+                                <input type="text" placeholder="Имя">
+                            </div>
+                            <div class="form__item">
+                                <div class="form__icon"><i class="fa-solid fa-phone"></i></div>
+                                <input type="text" placeholder="Телефон">
+                            </div>
+                            <div class="form__item">
+                                <div class="form__icon"><i class="fa-regular fa-envelope"></i></div>
+                                <input type="text" placeholder="E-mail">
+                            </div>
+                            <div class="conditions_checkbox"><input type="checkbox">Я подтверждаю свое согласие на обработку персональных данных</div>
                             
                             <button>отправить</button>
                         </form>

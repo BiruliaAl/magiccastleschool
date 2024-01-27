@@ -32,6 +32,18 @@ let swiper = new Swiper('.swiper_about', {
   
   });
 
+  let swiper3 = new Swiper('.swiper_reviews', {
+    // Optional parameters
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+
   //details
 
   function onToggle(event) {

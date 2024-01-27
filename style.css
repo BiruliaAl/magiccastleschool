@@ -671,6 +671,14 @@ details summary ol {
     width: 178px;
     height: 194px;
 }
+.swiper_reviews {
+    width: 560px;
+    height: 315px;
+}
+.reviews__items_slider iframe {
+    width: 560px;
+    height: 315px;
+}
 .reviews button {
     font-size: 32px;
     display: block;
@@ -729,8 +737,9 @@ details summary ol {
 .conditions__form button {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 50px;
     margin-left: 100px;
+    display: block;
+    margin: 50px auto;
 }
 input[type="checkbox"] {
     height: 10px;
@@ -738,6 +747,27 @@ input[type="checkbox"] {
     padding: 0;
     margin: 0;
     width: auto;
+}
+.conditions_checkbox {
+    font-size: 12px;
+}
+.form__item {
+    position: relative;
+}
+.form__item i {
+    margin-left: 7px;
+}
+.form__icon {
+    font-size: 23px;
+    color: white;
+    border-radius: 100%;
+    background-color: #283891;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    line-height: 1.5;
 }
 
 footer {
