@@ -357,13 +357,16 @@ h1{
 .about__slider_item {
     padding-left: 40px;
 }
-.swiper {
-    width: 600px;
+.swiper_about {
+    width: 700px;
     height: 430px;
   }
+  .about__slider_items {
+    width: 700px;
+  }
   .swiper-slide {
-    width: 100%;
-    height: 400px;
+    width: 600px;
+    height: 390px;
   }
 
 .swiper-pagination {
