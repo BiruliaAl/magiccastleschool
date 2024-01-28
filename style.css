@@ -2,6 +2,8 @@
 @font-face {
     font-family: "DINPro";
     src: url(./font/DINPro.woff2);
+    font-weight: 400;
+    font-display: swap;
 }
 
 /* сброс стилей  */
@@ -18,10 +20,7 @@ html {
   body, h1, h2, h3, h4, p {
   margin: 0;
 }
-/* ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-} */
+
 li {
     list-style: none;
 }

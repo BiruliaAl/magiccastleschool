@@ -64,3 +64,27 @@ let swiper = new Swiper('.swiper_about', {
   document
     .querySelectorAll(".questions__table_item > details")
     .forEach((el) => el.addEventListener("toggle", onToggle));
+
+//ленивая загрузка 
+
+const images = document.querySelectorAll('img[data-src]');
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.2
+};
+
+const imageObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const lazyImage = entry.target;
+      lazyImage.src = lazyImage.dataset.src;
+      lazyImage.classList.remove('lazy');
+      observer.unobserve(lazyImage);
+    }
+  });
+}, options);
+
+images.forEach(image => {
+  imageObserver.observe(image);
+});
