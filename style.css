@@ -151,6 +151,9 @@ td, th {
 .header__cart p{
     margin-left: 10px;
 }
+.header__cart a i {
+    color: black;
+}
 .header__contacts {
     color: #ed1c24;
     display: flex;
@@ -202,6 +205,9 @@ h1{
 }
 .descr {
     padding-bottom: 40px;
+}
+.descr span {
+    font-weight: bold;
 }
 .descr__title {
     color: #ed1c24;
@@ -477,20 +483,16 @@ details ol {
 }
 
 .swiper_teachers {
-    width: 80%;
-    height: inherit;
     padding: 50px 0 100px 0;
 }
 .swiper-slide {
     background-color: white;
-}
-
-.teachers__slide {
-    width: 742px;
-    height: 349px;
+    transition: all 0.5s;
 }
 
 .swiper-slide-item {
+    width: 742px;
+    height: 349px;
     padding: 40px;
     display: flex;
     align-items: center;
