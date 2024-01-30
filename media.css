@@ -132,14 +132,14 @@
 
     .swiper_about {
         width: 100vmin;
-        height: auto;
+        height: 75vw;
     }
     .about__slider_items {
         width: 100vmin;
         height: auto;
     }
     .swiper-slide {
-        height: auto;
+        height: 60vw;
     }
     .about button {
         font-size: 5.7vmin;
@@ -283,5 +283,11 @@
     }
     .footer__items_el {
         width: 100%;
+    }
+    .footer__link {
+        margin-left: 20px;
+    }
+    .footer__items_el h3 {
+        margin-top: 20px;
     }
  }
