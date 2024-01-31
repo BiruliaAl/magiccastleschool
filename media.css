@@ -1,4 +1,5 @@
 @media (min-width: 320px) and (max-width: 600px) { 
+
     button {
         font-size: 5.7vmin
     }
@@ -121,13 +122,15 @@
     .news__items_item button {
         font-size: 5.7vmin;
     }
+    .about {
+        padding: 10px;
+    }
     .about h4 {
         font-size: 6vmin;
         line-height: 1.2;
     }
     .about__slider {
         flex-direction: column;
-        padding: 10px;
     }
     .about__slider_item {
         margin: 0;
@@ -135,7 +138,7 @@
     }
 
     .swiper_about {
-        width: 100vmin;
+        width: 95vmin;
         height: 75vw;
     }
     .about__slider_items {
@@ -202,8 +205,8 @@
         margin: 0;
     }
     .development__item_img {
-        width: 180px;
-        height: 180px;
+        width: 175px;
+        height: 175px;
     }
     .development__item_descr {
         font-size: 3.7vmin;
