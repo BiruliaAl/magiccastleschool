@@ -45,6 +45,10 @@
         margin: 10px 20px 10px 0;
         align-self: flex-start;
     }
+    .descr {
+        min-height: 1400px;
+        padding: 0 10px;
+    }
     .descr__title {
         font-size: 6vmin;
         line-height: 7vmin;
@@ -62,7 +66,7 @@
         padding: 0;
     }
     .descr p {
-        padding: 0 20px 0 20px;
+        padding: 0 10px;
     }
     .show {
         padding: 10px;
@@ -205,6 +209,7 @@
         font-size: 3.7vmin;
     }
     .development__items {
+        padding: 10px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(8, 100px);
         gap: 10px;
@@ -264,6 +269,10 @@
     }
     .programms__list li a {
         padding: 5px;
+        font-size: 18px;
+    }
+    .conditions {
+        padding: 10px;
     }
     .conditions__wrapper {
         flex-direction: column;
