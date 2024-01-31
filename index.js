@@ -33,12 +33,6 @@ let swiper = new Swiper('.swiper_about', {
   
   });
 
-//   $('.swiper_teachers').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 3
-// });
-
   let swiper3 = new Swiper('.swiper_reviews', {
     // Optional parameters
     loop: true,
