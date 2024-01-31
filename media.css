@@ -47,7 +47,7 @@
     }
     .descr {
         min-height: 1400px;
-        padding: 0 10px;
+        padding: 0 15px;
     }
     .descr__title {
         font-size: 6vmin;
@@ -58,7 +58,7 @@
         line-height: 5vmin;
     }
     .descr__items .item  {
-        width: 185px;
+        width: 170px;
         padding: 0;
     }
     .descr__items .item p {
