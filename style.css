@@ -483,11 +483,19 @@ details ol {
 }
 
 .swiper_teachers {
-    padding: 50px 0 100px 0;
+    padding: 100px 0 50px 0;
 }
 .swiper-slide {
     background-color: white;
-    transition: all 0.5s;
+    transition: all 0.5s ease;
+    
+}
+
+#swiper-wrapper-a59d3d1c71380fa8 > div.swiper-slide.teachers__slide.swiper-slide-active {
+    transform: scale(1.2);
+    z-index: 1;
+    background-color: white;
+    margin-left: -230px;
 }
 
 .swiper-slide-item {
@@ -496,9 +504,26 @@ details ol {
     padding: 40px;
     display: flex;
     align-items: center;
-    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    background-color: white;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 23px;
+    height: 23px;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    font-size: 0;
+    background-color: transparent;
+    z-index: 1;
+}
 .swiper-slide .img img {
     width: 100%;
     border-radius: 50%;
