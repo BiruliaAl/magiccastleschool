@@ -101,3 +101,5 @@ for (var i=0; i<vidDefer.length; i++) {
     } 
 }
 window.onload = init;
+
+//меню 
