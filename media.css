@@ -97,7 +97,7 @@
         margin-top: 10px;
     }
     .entry {
-        padding: 80px 0 70px 0;
+        padding: 80px 10px 70px 10px;
     }
     .entry__descr {
         flex-direction: column;
@@ -110,6 +110,9 @@
         font-size: 5.7vmin;
         margin: 0 auto;
         margin-top: 35px;
+    }
+    .news {
+        padding: 10px;
     }
     .news__items {
         flex-direction: column;
@@ -171,6 +174,9 @@
         width: 100%;
         margin-left: 15px;
     }
+    .program__descr_item {
+        margin-top: 20px;
+    }
     .questions button {
         font-size: 5.7vmin; 
     }
@@ -193,6 +199,43 @@
         font-size: 4.8vmin;
         line-height: 5vmin;
     }
+    .swiper_teachers {
+        padding: 60px 40px;
+    }
+    .swiper-slide-item {
+        flex-direction: column;
+        padding: 20px;
+        width: 40vw;
+        min-height: 500px;
+    }
+    .swiper-slide .img img {
+        width: 100%;
+    }
+    .swiper-slide-item .descr {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0;
+    }
+    .country {
+        margin-top: 0;
+    }
+    .country, .item, .motto {
+        font-size: 13px;
+    }
+    .swiper-slide-item .descr {
+        display: flex;
+        flex-direction: column;
+    }
+    .swiper_teachers .swiper-slide-active {
+        margin-left: 0px;
+    }
+    .swiper_teachers .swiper-slide-next {
+        transform: translateX(-80px);
+    }
+    .swiper_teachers .swiper-slide-prev {
+        transform: translateX(80px);
+    }
+    
     .development_title {
         padding: 20px 15px;
         margin-top: 0;

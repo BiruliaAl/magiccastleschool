@@ -485,17 +485,26 @@ details ol {
 .swiper_teachers {
     padding: 100px 0 50px 0;
 }
-.swiper-slide {
+.swiper_teachers .swiper-slide {
     background-color: white;
-    transition: all 0.5s ease;
-    
+    transition: all 0.5s ease;  
+    opacity: 0;
 }
 
-#swiper-wrapper-a59d3d1c71380fa8 > div.swiper-slide.teachers__slide.swiper-slide-active {
+.swiper_teachers .swiper-slide-active {
     transform: scale(1.2);
     z-index: 1;
     background-color: white;
     margin-left: -230px;
+    opacity: 1;
+}
+.swiper_teachers .swiper-slide-next {
+    opacity: 1;
+    transform: translateX(-190px);
+}
+.swiper_teachers .swiper-slide-prev {
+    opacity: 1;
+    transform: translateX(40px);
 }
 
 .swiper-slide-item {
