@@ -206,6 +206,7 @@
     }
     .swiper-slide {
         height: 100vw;
+        width: 30%;
     }
     .swiper-slide-item {
         flex-direction: column;
