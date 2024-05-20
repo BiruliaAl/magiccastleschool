@@ -62,7 +62,6 @@ body {
     font-family: "DINPro";
     font-size: 18px;
     color: #283891;
-    line-height: 1.2;
 }
 .container {
     max-width: 1140px;
@@ -186,6 +185,7 @@ td, th {
 .title__descr {
     position: absolute;
     width: 87%;
+    height: auto;
     right: 0;
     bottom: 40px;
     display: flex;
@@ -580,6 +580,7 @@ details ol {
     font-style: italic;
     margin-top: 15px;
     font-size: 18px;
+    line-height: 1.1;
 }
 
 :root {
@@ -762,7 +763,6 @@ details ol {
 }
 .conditions__wrapper img {
     width: 270px;
-    height: 295px;
 }
 .conditions__form {
     display: flex;
